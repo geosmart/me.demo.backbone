@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <title>Backbone-Bootstrap-StartUp</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="shortcut icon" href="img/logo.ico" type="image/x-icon" />
+
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="css/docs.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="app-container">
+        <!--header-->
+        <nav class="navbar navbar-default navbar-fixed-top" id="header"></nav>
+        <!--imgCarousel-->
+        <div id="imgCarousel"></div>
+        <!--siteInfo-->
+        <div id="siteInfo"></div>
+        <!--container-->
+        <div class="container bs-docs-container" id="container"></div>
+        <!-- Footer-->
+        <footer class="bs-docs-footer" role="contentinfo" id="footer"></footer>
+        <!--temp Container-->
+        <div id="tempContainer"></div>
+    </div>
+    <script src="js/util/restConfig.js"></script>
+    <script data-main="js/main" src="node_modules/requirejs/require.js"></script>
+</body>
+
+</html>
